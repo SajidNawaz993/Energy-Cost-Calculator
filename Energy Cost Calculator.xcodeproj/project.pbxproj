@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B69961C289A105D005BC0D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69961B289A105D005BC0D3 /* AppDelegate.swift */; };
+		8B69961E289A105D005BC0D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69961D289A105D005BC0D3 /* SceneDelegate.swift */; };
+		8B699620289A105D005BC0D3 /* CustomerMeterInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69961F289A105D005BC0D3 /* CustomerMeterInfoVC.swift */; };
+		8B699623289A105D005BC0D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B699621289A105D005BC0D3 /* Main.storyboard */; };
+		8B699626289A105D005BC0D3 /* Energy_Cost_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B699624289A105D005BC0D3 /* Energy_Cost_Calculator.xcdatamodeld */; };
+		8B699628289A105E005BC0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B699627289A105E005BC0D3 /* Assets.xcassets */; };
+		8B69962B289A105E005BC0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B699629289A105E005BC0D3 /* LaunchScreen.storyboard */; };
+		8B699636289A105E005BC0D3 /* Energy_Cost_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B699635289A105E005BC0D3 /* Energy_Cost_CalculatorTests.swift */; };
+		8B699640289A105E005BC0D3 /* Energy_Cost_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69963F289A105E005BC0D3 /* Energy_Cost_CalculatorUITests.swift */; };
+		8B699642289A105E005BC0D3 /* Energy_Cost_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B699641289A105E005BC0D3 /* Energy_Cost_CalculatorUITestsLaunchTests.swift */; };
+		8B699657289A1721005BC0D3 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B699656289A1721005BC0D3 /* UIColor.swift */; };
+		8B699659289A1AF5005BC0D3 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B699658289A1AF5005BC0D3 /* BaseVC.swift */; };
+		8B69965C289A1B54005BC0D3 /* ToastLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69965B289A1B54005BC0D3 /* ToastLabel.swift */; };
+		8B69965F289A1CE6005BC0D3 /* ConsumptionCostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69965E289A1CE6005BC0D3 /* ConsumptionCostVC.swift */; };
+		8B699662289A2018005BC0D3 /* CosumptionResultTableVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B699661289A2018005BC0D3 /* CosumptionResultTableVIewCell.swift */; };
+		8B69966D289A27A7005BC0D3 /* Slab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69966B289A27A7005BC0D3 /* Slab.swift */; };
+		8B699670289A28A0005BC0D3 /* SlabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69966F289A28A0005BC0D3 /* SlabViewModel.swift */; };
+		8B699673289A353A005BC0D3 /* MeterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B699671289A353A005BC0D3 /* MeterInfo.swift */; };
+		8B699676289A3658005BC0D3 /* MeterInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B699675289A3658005BC0D3 /* MeterInfoViewModel.swift */; };
+		8B69967D289A41FB005BC0D3 /* MeterConsumptionCostHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69967B289A41FB005BC0D3 /* MeterConsumptionCostHistory.swift */; };
+		8B699680289A4232005BC0D3 /* MeterConsumptionCostHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69967F289A4232005BC0D3 /* MeterConsumptionCostHistoryViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B699632289A105E005BC0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B699610289A105D005BC0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B699617289A105D005BC0D3;
+			remoteInfo = "Energy Cost Calculator";
+		};
+		8B69963C289A105E005BC0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B699610289A105D005BC0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B699617289A105D005BC0D3;
+			remoteInfo = "Energy Cost Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B699618289A105D005BC0D3 /* Energy Cost Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Energy Cost Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B69961B289A105D005BC0D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B69961D289A105D005BC0D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8B69961F289A105D005BC0D3 /* CustomerMeterInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMeterInfoVC.swift; sourceTree = "<group>"; };
+		8B699622289A105D005BC0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B699625289A105D005BC0D3 /* Energy_Cost_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Energy_Cost_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		8B699627289A105E005BC0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B69962A289A105E005BC0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B69962C289A105E005BC0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B699631289A105E005BC0D3 /* Energy Cost CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Energy Cost CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B699635289A105E005BC0D3 /* Energy_Cost_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Energy_Cost_CalculatorTests.swift; sourceTree = "<group>"; };
+		8B69963B289A105E005BC0D3 /* Energy Cost CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Energy Cost CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B69963F289A105E005BC0D3 /* Energy_Cost_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Energy_Cost_CalculatorUITests.swift; sourceTree = "<group>"; };
+		8B699641289A105E005BC0D3 /* Energy_Cost_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Energy_Cost_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B699656289A1721005BC0D3 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8B699658289A1AF5005BC0D3 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		8B69965B289A1B54005BC0D3 /* ToastLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastLabel.swift; sourceTree = "<group>"; };
+		8B69965E289A1CE6005BC0D3 /* ConsumptionCostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionCostVC.swift; sourceTree = "<group>"; };
+		8B699661289A2018005BC0D3 /* CosumptionResultTableVIewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosumptionResultTableVIewCell.swift; sourceTree = "<group>"; };
+		8B69966B289A27A7005BC0D3 /* Slab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slab.swift; sourceTree = "<group>"; };
+		8B69966F289A28A0005BC0D3 /* SlabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlabViewModel.swift; sourceTree = "<group>"; };
+		8B699671289A353A005BC0D3 /* MeterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterInfo.swift; sourceTree = "<group>"; };
+		8B699675289A3658005BC0D3 /* MeterInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterInfoViewModel.swift; sourceTree = "<group>"; };
+		8B69967B289A41FB005BC0D3 /* MeterConsumptionCostHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterConsumptionCostHistory.swift; sourceTree = "<group>"; };
+		8B69967F289A4232005BC0D3 /* MeterConsumptionCostHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterConsumptionCostHistoryViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B699615289A105D005BC0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B69962E289A105E005BC0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B699638289A105E005BC0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B69960F289A105D005BC0D3 = {
+			isa = PBXGroup;
+			children = (
+				8B69961A289A105D005BC0D3 /* Energy Cost Calculator */,
+				8B699634289A105E005BC0D3 /* Energy Cost CalculatorTests */,
+				8B69963E289A105E005BC0D3 /* Energy Cost CalculatorUITests */,
+				8B699619289A105D005BC0D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B699619289A105D005BC0D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B699618289A105D005BC0D3 /* Energy Cost Calculator.app */,
+				8B699631289A105E005BC0D3 /* Energy Cost CalculatorTests.xctest */,
+				8B69963B289A105E005BC0D3 /* Energy Cost CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B69961A289A105D005BC0D3 /* Energy Cost Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				8B699660289A1FF1005BC0D3 /* TableViewCell */,
+				8B69965A289A1B45005BC0D3 /* Util */,
+				8B699655289A1702005BC0D3 /* Extension */,
+				8B69964E289A1445005BC0D3 /* Application */,
+				8B699650289A1483005BC0D3 /* Model */,
+				8B699651289A148C005BC0D3 /* ViewModel */,
+				8B69964F289A147A005BC0D3 /* Controller */,
+				8B699653289A1554005BC0D3 /* View */,
+				8B699652289A1539005BC0D3 /* SupportingFiles */,
+				8B699654289A1563005BC0D3 /* CoreData */,
+			);
+			path = "Energy Cost Calculator";
+			sourceTree = "<group>";
+		};
+		8B699634289A105E005BC0D3 /* Energy Cost CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B699635289A105E005BC0D3 /* Energy_Cost_CalculatorTests.swift */,
+			);
+			path = "Energy Cost CalculatorTests";
+			sourceTree = "<group>";
+		};
+		8B69963E289A105E005BC0D3 /* Energy Cost CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B69963F289A105E005BC0D3 /* Energy_Cost_CalculatorUITests.swift */,
+				8B699641289A105E005BC0D3 /* Energy_Cost_CalculatorUITestsLaunchTests.swift */,
+			);
+			path = "Energy Cost CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		8B69964E289A1445005BC0D3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8B69961B289A105D005BC0D3 /* AppDelegate.swift */,
+				8B69961D289A105D005BC0D3 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8B69964F289A147A005BC0D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B699658289A1AF5005BC0D3 /* BaseVC.swift */,
+				8B69961F289A105D005BC0D3 /* CustomerMeterInfoVC.swift */,
+				8B69965E289A1CE6005BC0D3 /* ConsumptionCostVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B699650289A1483005BC0D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B69967B289A41FB005BC0D3 /* MeterConsumptionCostHistory.swift */,
+				8B699671289A353A005BC0D3 /* MeterInfo.swift */,
+				8B69966B289A27A7005BC0D3 /* Slab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B699651289A148C005BC0D3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B69966F289A28A0005BC0D3 /* SlabViewModel.swift */,
+				8B699675289A3658005BC0D3 /* MeterInfoViewModel.swift */,
+				8B69967F289A4232005BC0D3 /* MeterConsumptionCostHistoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8B699652289A1539005BC0D3 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8B699627289A105E005BC0D3 /* Assets.xcassets */,
+				8B69962C289A105E005BC0D3 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8B699653289A1554005BC0D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B699621289A105D005BC0D3 /* Main.storyboard */,
+				8B699629289A105E005BC0D3 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B699654289A1563005BC0D3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8B699624289A105D005BC0D3 /* Energy_Cost_Calculator.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		8B699655289A1702005BC0D3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8B699656289A1721005BC0D3 /* UIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8B69965A289A1B45005BC0D3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8B69965B289A1B54005BC0D3 /* ToastLabel.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8B699660289A1FF1005BC0D3 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8B699661289A2018005BC0D3 /* CosumptionResultTableVIewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B699617289A105D005BC0D3 /* Energy Cost Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B699645289A105E005BC0D3 /* Build configuration list for PBXNativeTarget "Energy Cost Calculator" */;
+			buildPhases = (
+				8B699614289A105D005BC0D3 /* Sources */,
+				8B699615289A105D005BC0D3 /* Frameworks */,
+				8B699616289A105D005BC0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Energy Cost Calculator";
+			productName = "Energy Cost Calculator";
+			productReference = 8B699618289A105D005BC0D3 /* Energy Cost Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B699630289A105E005BC0D3 /* Energy Cost CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B699648289A105E005BC0D3 /* Build configuration list for PBXNativeTarget "Energy Cost CalculatorTests" */;
+			buildPhases = (
+				8B69962D289A105E005BC0D3 /* Sources */,
+				8B69962E289A105E005BC0D3 /* Frameworks */,
+				8B69962F289A105E005BC0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B699633289A105E005BC0D3 /* PBXTargetDependency */,
+			);
+			name = "Energy Cost CalculatorTests";
+			productName = "Energy Cost CalculatorTests";
+			productReference = 8B699631289A105E005BC0D3 /* Energy Cost CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B69963A289A105E005BC0D3 /* Energy Cost CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B69964B289A105E005BC0D3 /* Build configuration list for PBXNativeTarget "Energy Cost CalculatorUITests" */;
+			buildPhases = (
+				8B699637289A105E005BC0D3 /* Sources */,
+				8B699638289A105E005BC0D3 /* Frameworks */,
+				8B699639289A105E005BC0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B69963D289A105E005BC0D3 /* PBXTargetDependency */,
+			);
+			name = "Energy Cost CalculatorUITests";
+			productName = "Energy Cost CalculatorUITests";
+			productReference = 8B69963B289A105E005BC0D3 /* Energy Cost CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B699610289A105D005BC0D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					8B699617289A105D005BC0D3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					8B699630289A105E005BC0D3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8B699617289A105D005BC0D3;
+					};
+					8B69963A289A105E005BC0D3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8B699617289A105D005BC0D3;
+					};
+				};
+			};
+			buildConfigurationList = 8B699613289A105D005BC0D3 /* Build configuration list for PBXProject "Energy Cost Calculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B69960F289A105D005BC0D3;
+			productRefGroup = 8B699619289A105D005BC0D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B699617289A105D005BC0D3 /* Energy Cost Calculator */,
+				8B699630289A105E005BC0D3 /* Energy Cost CalculatorTests */,
+				8B69963A289A105E005BC0D3 /* Energy Cost CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B699616289A105D005BC0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B69962B289A105E005BC0D3 /* LaunchScreen.storyboard in Resources */,
+				8B699628289A105E005BC0D3 /* Assets.xcassets in Resources */,
+				8B699623289A105D005BC0D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B69962F289A105E005BC0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B699639289A105E005BC0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B699614289A105D005BC0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B69965C289A1B54005BC0D3 /* ToastLabel.swift in Sources */,
+				8B69966D289A27A7005BC0D3 /* Slab.swift in Sources */,
+				8B699620289A105D005BC0D3 /* CustomerMeterInfoVC.swift in Sources */,
+				8B699659289A1AF5005BC0D3 /* BaseVC.swift in Sources */,
+				8B699680289A4232005BC0D3 /* MeterConsumptionCostHistoryViewModel.swift in Sources */,
+				8B69965F289A1CE6005BC0D3 /* ConsumptionCostVC.swift in Sources */,
+				8B699673289A353A005BC0D3 /* MeterInfo.swift in Sources */,
+				8B69961C289A105D005BC0D3 /* AppDelegate.swift in Sources */,
+				8B699626289A105D005BC0D3 /* Energy_Cost_Calculator.xcdatamodeld in Sources */,
+				8B69961E289A105D005BC0D3 /* SceneDelegate.swift in Sources */,
+				8B699662289A2018005BC0D3 /* CosumptionResultTableVIewCell.swift in Sources */,
+				8B699670289A28A0005BC0D3 /* SlabViewModel.swift in Sources */,
+				8B69967D289A41FB005BC0D3 /* MeterConsumptionCostHistory.swift in Sources */,
+				8B699676289A3658005BC0D3 /* MeterInfoViewModel.swift in Sources */,
+				8B699657289A1721005BC0D3 /* UIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B69962D289A105E005BC0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B699636289A105E005BC0D3 /* Energy_Cost_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B699637289A105E005BC0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B699640289A105E005BC0D3 /* Energy_Cost_CalculatorUITests.swift in Sources */,
+				8B699642289A105E005BC0D3 /* Energy_Cost_CalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B699633289A105E005BC0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B699617289A105D005BC0D3 /* Energy Cost Calculator */;
+			targetProxy = 8B699632289A105E005BC0D3 /* PBXContainerItemProxy */;
+		};
+		8B69963D289A105E005BC0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B699617289A105D005BC0D3 /* Energy Cost Calculator */;
+			targetProxy = 8B69963C289A105E005BC0D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B699621289A105D005BC0D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B699622289A105D005BC0D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B699629289A105E005BC0D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B69962A289A105E005BC0D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B699643289A105E005BC0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B699644289A105E005BC0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B699646289A105E005BC0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRRLWUDE6Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Energy Cost Calculator/SupportingFiles/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahi.Energy-Cost-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B699647289A105E005BC0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRRLWUDE6Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Energy Cost Calculator/SupportingFiles/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahi.Energy-Cost-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B699649289A105E005BC0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRRLWUDE6Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahi.Energy-Cost-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Energy Cost Calculator.app/Energy Cost Calculator";
+			};
+			name = Debug;
+		};
+		8B69964A289A105E005BC0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRRLWUDE6Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahi.Energy-Cost-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Energy Cost Calculator.app/Energy Cost Calculator";
+			};
+			name = Release;
+		};
+		8B69964C289A105E005BC0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRRLWUDE6Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahi.Energy-Cost-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Energy Cost Calculator";
+			};
+			name = Debug;
+		};
+		8B69964D289A105E005BC0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRRLWUDE6Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahi.Energy-Cost-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Energy Cost Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B699613289A105D005BC0D3 /* Build configuration list for PBXProject "Energy Cost Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B699643289A105E005BC0D3 /* Debug */,
+				8B699644289A105E005BC0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B699645289A105E005BC0D3 /* Build configuration list for PBXNativeTarget "Energy Cost Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B699646289A105E005BC0D3 /* Debug */,
+				8B699647289A105E005BC0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B699648289A105E005BC0D3 /* Build configuration list for PBXNativeTarget "Energy Cost CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B699649289A105E005BC0D3 /* Debug */,
+				8B69964A289A105E005BC0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B69964B289A105E005BC0D3 /* Build configuration list for PBXNativeTarget "Energy Cost CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B69964C289A105E005BC0D3 /* Debug */,
+				8B69964D289A105E005BC0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B699624289A105D005BC0D3 /* Energy_Cost_Calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B699625289A105D005BC0D3 /* Energy_Cost_Calculator.xcdatamodel */,
+			);
+			currentVersion = 8B699625289A105D005BC0D3 /* Energy_Cost_Calculator.xcdatamodel */;
+			path = Energy_Cost_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B699610289A105D005BC0D3 /* Project object */;
+}

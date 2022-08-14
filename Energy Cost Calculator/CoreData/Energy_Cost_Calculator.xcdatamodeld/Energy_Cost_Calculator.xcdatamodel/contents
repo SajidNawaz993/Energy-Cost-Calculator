@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MeterConsumptionCostHistory" representedClassName=".MeterConsumptionCostHistory" syncable="YES">
+        <attribute name="cost" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="currentMeterReading" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="serviceNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="MeterInfo" representedClassName=".MeterInfo" syncable="YES">
+        <attribute name="currentMeterReading" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isRecordInConsumption" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="serviceNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Slab" representedClassName=".Slab" syncable="YES">
+        <attribute name="slabMaxRange" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="slabMinRange" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="slabName" optional="YES" attributeType="String"/>
+        <attribute name="slabUnitPrice" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Slab" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="MeterInfo" positionX="-54" positionY="18" width="128" height="74"/>
+        <element name="MeterConsumptionCostHistory" positionX="-36" positionY="45" width="128" height="74"/>
+    </elements>
+</model>
